@@ -1,0 +1,100 @@
+.jumbotron {
+  text-align: center;
+}
+
+.jumbotron a {
+  position: relative;
+  margin-top: 2%;
+  margin-bottom: -2%;
+}
+
+#scoreContainer {
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#scoreContainer h6 {
+  font-size: 20px;
+}
+
+#score {
+  font-size: 18px;
+}
+
+.container-fluid {
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid .row{
+  /*border: 1px solid red;*/
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-fluid .column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.col-md-2 {
+  text-align: center;
+  margin: 2% 0 2% 0;
+
+}
+
+.col-md-2 button {
+  width: 100px;
+  height: 75px;
+  font-size: 25px;
+}
+
+#questionContainer {
+  display: none;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#questionContainer div{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.panel-heading h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+#answer {
+  height: 75px;
+  padding: 0 0 0 0;
+}
+
+.panel-body #answerInput{
+  height: 100%;
+  width: 100%;
+  padding-left: 3%;
+  font-size: 20px;
+  border: 0;
+}
+
+#submit {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+#submit #submitButton{
+  margin: 2% auto 2% auto;
+  padding: 0 0 0 0;
+  height: 35px;
+  font-size: 20px;
+  font-style: bold;
+  width: 34%;
+}
