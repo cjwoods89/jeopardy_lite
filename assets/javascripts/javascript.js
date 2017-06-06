@@ -51,6 +51,12 @@
 
     // console.log(buttonValue + ' button value');
 
+    // *************************************
+    // Need to modify the get query with promises & an if statement
+    // Promise the get query that I will use the below data later on loaded
+    // If statement to change the returned question if the value is not on the board
+    // *************************************
+
     $.get( "http://jservice.io/api/clues?value=" + buttonValue + "&category=" + storedCats[buttonCatNum], function( data ) {
 
       goodAnswer = data[0].answer.toUpperCase();
