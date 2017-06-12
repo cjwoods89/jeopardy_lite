@@ -98,3 +98,11 @@
   font-style: bold;
   width: 34%;
 }
+
+.alert_container {
+  display: flex;
+  position: relative;
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
